@@ -1,0 +1,10 @@
+--------------------------  DSP_Template.pjt - Debug  --------------------------
+[main.c] "C:\CCStudio_v3.3PLA\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"E:/DSP_Project/USART/Debug" -i"../DSP2803x_headers/include" -i"../DSP2803x_common/include" -i"../../DSP2803x_headers/include" -i"../../DSP2803x_common/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../Debug.lkf" "main.c"
+
+[USART.c] "C:\CCStudio_v3.3PLA\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"E:/DSP_Project/USART/Debug" -i"../DSP2803x_headers/include" -i"../DSP2803x_common/include" -i"../../DSP2803x_headers/include" -i"../../DSP2803x_common/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../../Debug.lkf" "USART.c"
+
+[Linking...] "C:\CCStudio_v3.3PLA\C2000\cgtools\bin\cl2000" -@"Debug.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 0 Warnings, 0 Remarks.

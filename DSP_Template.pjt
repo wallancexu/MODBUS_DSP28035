@@ -1,0 +1,53 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="E:\DSP_Project\USART\"
+ProjectType=Executable
+CPUFamily=TMS320C28XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="DSP2803x_common\source\DSP2803x_CodeStartBranch.asm"
+Source="DSP2803x_common\source\DSP2803x_DefaultIsr.c"
+Source="DSP2803x_common\source\DSP2803x_MemCopy.c"
+Source="DSP2803x_common\source\DSP2803x_PieCtrl.c"
+Source="DSP2803x_common\source\DSP2803x_PieVect.c"
+Source="DSP2803x_common\source\DSP2803x_Sci.c"
+Source="DSP2803x_common\source\DSP2803x_SysCtrl.c"
+Source="DSP2803x_common\source\DSP2803x_usDelay.asm"
+Source="DSP2803x_headers\source\DSP2803x_GlobalVariableDefs.c"
+Source="main\main.c"
+Source="MyBSP\USART\USART.c"
+Source="OnChip_Driver\Delay\Delay.c"
+Source="DSP2803x_common\cmd\28035_RAM_lnk.cmd"
+Source="DSP2803x_headers\cmd\DSP2803x_Headers_nonBIOS.cmd"
+
+["Compiler" Settings: "Debug"]
+Options=-g -pdsw225 -fr"$(Proj_dir)\Debug" -i"..\DSP2803x_headers\include" -i"..\DSP2803x_common\include" -i"..\..\DSP2803x_headers\include" -i"..\..\DSP2803x_common\include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28
+
+["Compiler" Settings: "Release"]
+Options=-pdsw225 -o3 -fr"$(Proj_dir)\Release" -d"LARGE_MODEL" -ml -v28
+
+["Linker" Settings: "Debug"]
+Options=-c -e_c_int00 -m".\Debug\DSP_Template.map" -o".\Debug\DSP_Template.out" -stack0x200 -w -x -i"DSP2803x_headers\include" -l"rts2800_ml.lib"
+
+["Linker" Settings: "Release"]
+Options=-c -m".\Release\DSP_Template.map" -o".\Release\DSP_Template.out" -w -x
+
+["DSP2803x_common\cmd\28035_RAM_lnk.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["DSP2803x_common\cmd\28035_RAM_lnk.cmd" Settings: "Release"]
+LinkOrder=1
+
+["DSP2803x_headers\cmd\DSP2803x_Headers_nonBIOS.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["DSP2803x_headers\cmd\DSP2803x_Headers_nonBIOS.cmd" Settings: "Release"]
+LinkOrder=1
+
