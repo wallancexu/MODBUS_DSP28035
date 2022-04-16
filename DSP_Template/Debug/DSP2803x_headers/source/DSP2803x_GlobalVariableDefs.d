@@ -1,0 +1,47 @@
+# FIXED
+
+F:/MODBUS_3.0/Debug/DSP2803x_GlobalVariableDefs.obj: F:/MODBUS_3.0/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.c
+F:/MODBUS_3.0/Debug/DSP2803x_GlobalVariableDefs.obj: F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_Device.h
+F:/MODBUS_3.0/Debug/DSP2803x_GlobalVariableDefs.obj: F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_Adc.h
+F:/MODBUS_3.0/Debug/DSP2803x_GlobalVariableDefs.obj: F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_BootVars.h
+F:/MODBUS_3.0/Debug/DSP2803x_GlobalVariableDefs.obj: F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_DevEmu.h
+F:/MODBUS_3.0/Debug/DSP2803x_GlobalVariableDefs.obj: F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_Cla.h
+F:/MODBUS_3.0/Debug/DSP2803x_GlobalVariableDefs.obj: F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_Comp.h
+F:/MODBUS_3.0/Debug/DSP2803x_GlobalVariableDefs.obj: F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_CpuTimers.h
+F:/MODBUS_3.0/Debug/DSP2803x_GlobalVariableDefs.obj: F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_ECan.h
+F:/MODBUS_3.0/Debug/DSP2803x_GlobalVariableDefs.obj: F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_ECap.h
+F:/MODBUS_3.0/Debug/DSP2803x_GlobalVariableDefs.obj: F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_EPwm.h
+F:/MODBUS_3.0/Debug/DSP2803x_GlobalVariableDefs.obj: F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_EQep.h
+F:/MODBUS_3.0/Debug/DSP2803x_GlobalVariableDefs.obj: F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_Gpio.h
+F:/MODBUS_3.0/Debug/DSP2803x_GlobalVariableDefs.obj: F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_I2c.h
+F:/MODBUS_3.0/Debug/DSP2803x_GlobalVariableDefs.obj: F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_Lin.h
+F:/MODBUS_3.0/Debug/DSP2803x_GlobalVariableDefs.obj: F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_NmiIntrupt.h
+F:/MODBUS_3.0/Debug/DSP2803x_GlobalVariableDefs.obj: F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_PieCtrl.h
+F:/MODBUS_3.0/Debug/DSP2803x_GlobalVariableDefs.obj: F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_PieVect.h
+F:/MODBUS_3.0/Debug/DSP2803x_GlobalVariableDefs.obj: F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_Spi.h
+F:/MODBUS_3.0/Debug/DSP2803x_GlobalVariableDefs.obj: F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_Sci.h
+F:/MODBUS_3.0/Debug/DSP2803x_GlobalVariableDefs.obj: F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_SysCtrl.h
+F:/MODBUS_3.0/Debug/DSP2803x_GlobalVariableDefs.obj: F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_XIntrupt.h
+
+F:/MODBUS_3.0/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.c: 
+F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_Device.h: 
+F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_Adc.h: 
+F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_BootVars.h: 
+F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_DevEmu.h: 
+F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_Cla.h: 
+F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_Comp.h: 
+F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_CpuTimers.h: 
+F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_ECan.h: 
+F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_ECap.h: 
+F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_EPwm.h: 
+F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_EQep.h: 
+F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_Gpio.h: 
+F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_I2c.h: 
+F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_Lin.h: 
+F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_NmiIntrupt.h: 
+F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_PieCtrl.h: 
+F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_PieVect.h: 
+F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_Spi.h: 
+F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_Sci.h: 
+F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_SysCtrl.h: 
+F:/MODBUS_3.0/DSP2803x_headers/include/DSP2803x_XIntrupt.h: 
